@@ -1,10 +1,15 @@
 # Prime Multiplication Tables
 
-### Prime:
-Class created for functions around prime numbers. Use `Prime.first(n)` to render an array of the first n primes. Use `Prime.isPrime?(n)` method to identify whether any int `n` is a prime number.
+## `class Prime` [prime.rb](/prime.rb)
+Class contains methods around prime numbers. Specifically, the `first(n)` method is pivotal to building the multiplication tables.
+`Prime.first(n)` renders an array of the first n primes.
+`Prime.isPrime?(n)` identifies whether any int `n` is a prime number.
 
-### PrimeMultiplicationTable:
-Model contains logic around constructing the prime multiplication tables. Contains `data` method to construct 2D array for table. `format` method to render string for output to terminal. `render_cell` pads the cell based on the length of the largest digit in the table. Validates size argument is an integer.
+## `class PrimeMultiplicationTable` [prime_multiplication_table.rb](/prime_multiplication_table.rb)
+Consists of methods around constructing the prime multiplication tables. Validates size argument is an integer when instantiating.
+`data` to construct 2D array for table.
+`format` to render string of table for output to terminal.
+`render_cell` pads a cell based on the length of the largest digit in the table.
 
 #### Run app with start.rb:
 Any integer is valid as an argument. Too big and the table wont fit on your monitor however! (Default is 10)
