@@ -14,5 +14,3 @@ end
 
 prime_table = PrimeMultiplicationTable.new(input_num)
 prime_table.print_to_screen
-
-binding.pry
