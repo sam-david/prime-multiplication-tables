@@ -1,16 +1,22 @@
 # Prime Multiplication Tables
 
-## [`class Prime`](/prime.rb)
+## `class Prime`
+[Link to file](/prime.rb)
+
 Class contains methods around prime numbers. Specifically, the `first(n)` method is pivotal to building the multiplication tables.
+
 `Prime.first(n)` renders an array of the first n primes.
+
 `Prime.isPrime?(n)` identifies whether any int `n` is a prime number.
 
-## [`class PrimeMultiplicationTable`](/prime_multiplication_table.rb)
+## `class PrimeMultiplicationTable`
+[Link to file](/prime_multiplication_table.rb)
+
 Consists of methods around constructing a prime multiplication table. Validates size argument is an integer when instantiating.
 
 `data` to construct 2D array for table.
 
-`format` to render string of table for output to terminal.
+`format` to render string of table to output to terminal.
 
 `render_cell` pads a cell based on the length of the largest digit in the table.
 
