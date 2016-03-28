@@ -1,7 +1,7 @@
 class Prime
   # return the first n prime numbers
   def self.first(n)
-    return -1 if n <= 1
+    return -1 if n < 1
     1.upto(Float::INFINITY).lazy.select do |num|
       isPrime?(num)
     end.first(n)
